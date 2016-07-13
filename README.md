@@ -17,3 +17,10 @@ References
 2. R. M. Neal, Bayesian Learning for Neural Networks, PhD Thesis, 1995. 
 3. M. E. Tipping, Sparse Bayesian Learning and the Relevance Vector Machine, Journal of Machine Learning Research, 2001. 
 4. J. A. O'Sullivan and J. Benac, Alternating Minimization Algorithm for Transmission Tomography, IEEE Trans. on Medical Imaging, 2007.
+
+How to Use the Code
+--------------------
+The code is provided for EDUCATIONAL purposes only!
+(1) For a demo that includes only the VARD algorithm, please run the file: Demo_VARD.m 
+(2) For a demo that includes a comparison between VARD and other algorithms, please run the file: Demo_all.m
+
