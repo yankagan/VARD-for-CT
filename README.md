@@ -1,7 +1,7 @@
 # Large-scale image reconstruction for transmission tomography with automatic regularization
 
 
-This is a demo of the VARD algorithm for image reconstruction in transmission tomography under Poisson noise [1]. We consider x-ray computed tomography (CT), but the algorithm applies more generally, e.g., it can be used for electron tomography.  VARD stands for Variational Automatic Relevance Determination and it is an extension of Automatic Relevance Determination (ARD) [2,3] to Poisson noise models with Beer's law. 
+This is a demo of the Variational Automatic Relevance Determination algorithm for image reconstruction in transmission tomography under Poisson noise, published in \emph{Y. Kaganovsky, S. Han, S. Degirmenci, D. G. Politte, D. J. Brady, J. A. O'Sullivan and L. Carin, Alternating Minimization Algorithm with Automatic Relevance Determination for Transmission Tomography under Poisson Noise,  SIAM Journal on Imaging Sciences, 8(3), 2015.} We consider x-ray computed tomography (CT), but the algorithm applies more generally, e.g., it can be used for electron tomography.  VARD stands for Variational Automatic Relevance Determination and it is an extension of Automatic Relevance Determination (ARD) [2,3] to Poisson noise models with Beer's law. 
  
 The key advantage of ARD or VARD is the lack of any tuning parameters. Typically, in penalized likelihood algorithms, one has to choose values for tuning parameters that control the balance between data-fit and the penalty due to prior knowledge (common choices are the l1 and TV penalties). One is then forced to perform many trials for different values of parameters and to choose the values by trial-and-error.
  
