@@ -1,7 +1,7 @@
 # Large-scale image reconstruction for transmission tomography with automatic regularization
 
 
-This is a MATLAB demo of the Variational Automatic Relevance Determination (VARD) algorithm for image reconstruction in transmission tomography under Poisson noise that was published in [1]. VARD is an extension of Automatic Relevance Determination (ARD) [2,3] to Poisson noise models with Beer's law used in computed tomography. It also scales significantly better than prior ARD algorithms. 
+This is a MATLAB 8.3 demo of the Variational Automatic Relevance Determination (VARD) algorithm for image reconstruction in transmission tomography under Poisson noise that was published in [1]. VARD is an extension of Automatic Relevance Determination (ARD) [2,3] to Poisson noise models with Beer's law used in computed tomography. It also scales significantly better than prior ARD algorithms. 
  
 The key advantage of ARD or VARD is the lack of any tuning parameters. Typically, in iterative image reconstruction algorithms, one has to choose values for tuning parameters that control the balance between the fit of the model to the data and the penalty that promotes solutions with desired properties (common choices are the Lasso and Total Variation penalties). One is then forced to perform many trials for different values of tuning parameters in order to get a good performance. 
  
@@ -20,7 +20,7 @@ References
 
 How to Use the Code
 --------------------
-The code is provided for EDUCATIONAL purposes only!
+The code is provided for EDUCATIONAL purposes only! 
 (1) For a demo that includes only the VARD algorithm, please run the file: Demo_VARD.m 
 (2) For a demo that includes a comparison between VARD and other algorithms, please run the file: Demo_all.m
 
