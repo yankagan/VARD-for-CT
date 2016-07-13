@@ -23,5 +23,6 @@ How to Use the Code
 The code is provided for EDUCATIONAL purposes only! 
 
 (1) For a demo that includes only the VARD algorithm, please run the file: Demo_VARD.m 
+
 (2) For a demo that includes a comparison between VARD and other algorithms, please run the file: Demo_all.m
 
